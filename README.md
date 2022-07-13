@@ -30,11 +30,3 @@ The first course in this module is good for those who don't know much about prog
 Since I had studied HTML and CSS in order to develop [my website](https://laistie.github.io/) - you can check its repository on GitHub [here](https://github.com/laistie/laistie.github.io) -, I basically skipped the first course's videos.
 
 On the other hand, I payed much attention on the flexbox lectures, because even though I was familiar with it, I'd still go through some trouble when positioning flexboxes :worried:.
-
-### Lectures' notes
-
-flex-direction: row, row-reverse, column, column-reverse
-
-flex-wrap: specifies whether the flexible items should wrap or not
-
-flex-flow: flex-direction + flex-wrap
