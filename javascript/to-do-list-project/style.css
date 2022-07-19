@@ -1,0 +1,64 @@
+:root{
+    --black: #1F2232;
+    --purple: #9370DB;
+    --lilac: #B393E8;
+
+    --padding: 0.5em;
+
+    --round: 5px;
+
+    --timer: 0.5s;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+}
+
+h1{
+    color: var(--lilac);
+}
+
+.main{
+    flex-direction: column;
+    align-items: center;
+    vertical-align: center;
+}
+
+#input{
+    padding: var(--padding);
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--black);
+    background-color: var(--lilac);
+    border: 1px var(--black) solid;
+    border-radius: var(--round);
+    padding: var(--padding);
+    margin-left: 2.5px;
+    transition: var(--timer);
+}
+
+button:hover{
+    color: var(--purple);
+    border: 1px var(--purple) solid;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+}
+
+.task-item{
+    margin-bottom: 2.5px;
+}
+
+.task-item > input[type='checkbox']:checked + div{
+    text-decoration: line-through;
+    text-decoration-color: var(--purple);
+}
