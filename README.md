@@ -45,5 +45,5 @@ Following that, I've started studying JavaScript and was formally introduced to 
 
 Then I've begun to dig more into JavaScript stuff, such as anonymous functions, IIFE (Immediately Invoked Function Expression), callbacks - which isn't difficult, but I wish I had been introduced to earlier at uni, since it's pretty useful when it comes to handling things in C, my main programming language nowadays -, objects (same as structs in C), this (keyword that refer to an object) and arrow functions. Also I learned about collections and array methods, which become pretty useful when working with multiple items, and was introduced to the concept of APIs (Application Programming Interface) that is frequently used in dev world.
 
-Finally, after lots and lots of JavaScript, I moved to TypeScript and the main focus of the course were data structures (defining types, interfaces and working with them). Additionally, I had to do some practice exercises, which you can check [here]().
+Finally, after lots and lots of JavaScript, I moved to TypeScript and the main focus of the course were data structures (defining types, interfaces and working with them). Additionally, I had to do some practice exercises, which you can check [here](https://github.com/laistie/bootcamp/tree/main/javascript).
 
