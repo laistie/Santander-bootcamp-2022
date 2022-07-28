@@ -33,6 +33,8 @@ The first course in this module is good for those who don't know much about prog
 - Debugging and error handling with JavaScript
 - Fundamentals of Asynchronous JavaScript
 - Object orientation with JavaScript
+- Working with modules in JavaScript
+- Managing D.O.M with JavaScript
 
 ### Description
 
@@ -41,8 +43,4 @@ Since I had studied HTML and CSS in order to develop [my website](https://laisti
 Following that, I've started studying JavaScript and was formally introduced to frameworks - one of the examples was Angular, which will be the main focus on module III. Also I learned the concept of hoisting, which refers to JavaScript's behaviour of moving declarations to the top; in other words, it's possible to use a variable before it's declared, but that doesn't work for constants.
 
 Then I've begun to dig more into JavaScript stuff, such as anonymous functions, IIFE (Immediately Invoked Function Expression), callbacks - which isn't difficult, but I wish I had been introduced to earlier at uni, since it's pretty useful when it comes to handling things in C, my main programming language nowadays -, objects (same as structs in C), this (keyword that refer to an object) and arrow functions. Also I learned about collections and array methods, which become pretty useful when working with multiple items, and was introduced to the concept of APIs (Application Programming Interface) that is frequently used in dev world.
-
-
-
-
 
