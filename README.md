@@ -52,6 +52,21 @@ Finally, after lots and lots of JavaScript, I moved to TypeScript and the main f
 ### Courses
 
 - Introduction to Angular 8
+- Working with SPA pages with Angular
+- Architecture of components and complexity management in front-end
+- Installing and preparing Angular environment
+- Exploring directives with Angular
+- Implementing services and injecting dependencies with Angular
+- Introduction to asynchronous services in Angular
+- The power of data biding in Angular
+- Working with components in Angular
+- Creating pipes with Angular
 
 ### Description
+
+The first thing I've learned from Angular was data binding; following that, the main focus were modules and components, which I found two of the most important resources in order to design a web page. Most of the courses ended up approaching the same topics, but that helped me in my studies because I could learn from different teachers and they were always complementing what the other previously said somehow.
+
+
+
+## Module IV: Java
 
