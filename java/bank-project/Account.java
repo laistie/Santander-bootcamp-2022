@@ -1,5 +1,5 @@
 public abstract class Account implements IAcc{
-    private static final int defAgency = 001;
+    private static final int defAgency = 1001;
     private static int COUNTING = 2000;
 
     protected int agency;
@@ -36,7 +36,7 @@ public abstract class Account implements IAcc{
 
     @Override
     public void showBalance(){
-        System.out.println(String.format("Account: %d-%d\nbalance: $%.2f\n", this.number, this.agency, this.balance));
+        System.out.println(String.format("Account: %d-%d\nBalance: $%.2f\n", this.number, this.agency, this.balance));
     }
 
     public int getAgency(){

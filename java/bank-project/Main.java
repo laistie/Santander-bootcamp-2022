@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        Bank sakuraBank = new Bank();
-        sakuraBank.setName("Sakura");
-        System.out.println("Welcome to " + sakuraBank.getName() + " Bank! Where your savings can bloom.\n");
+        Bank bank = new Bank();
+        bank.setName("Sakura");
+        System.out.println("Welcome to " + bank.getName() + " Bank! Where your savings can bloom.\n");
         Menu();
     }
 
@@ -18,14 +18,37 @@ public class Main{
         }
         switch(choice){
             case 1: 
-                System.out.println("choice 1");
+                Client client = newClient();
+                System.out.println("\nRegistered " + client.getName());
+                Account account;
+                System.out.println("\nTypes of account\n1. Checking\n2. Savings\n\nPlease select an option:");
+                int accType = scan.nextInt();
+                while(accType != 1 && accType != 2){
+                    System.out.println("\nEnter a valid option:");
+                    accType = scan.nextInt();
+                }
+                if(accType == 1){
+                    account = new CheckingAcc(client);   
+                }
+                else{
+                    account = new SavingsAcc(client);
+                }
+                account.showBalance();
                 break;
             case 2: 
                 System.out.println("choice 2");
                 break;
-            case 3: 
-                System.out.println("choice 3");
-                break;
+            case 3:
+                System.exit(0);
         }
+    }
+
+    static Client newClient(){
+        Client client = new Client();
+        System.out.println("\nClient full name: ");
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine();
+        client.setName(name);
+        return client;
     }
 }
