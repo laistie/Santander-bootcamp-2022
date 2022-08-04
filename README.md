@@ -70,3 +70,19 @@ The first thing I've learned from Angular was data binding; following that, the 
 
 ## Module IV: Java
 
+### Courses
+
+* Mastering Java IDEs
+* Variables, data types and mathematics operators in Java
+* Understanding Java methods
+* Conditional logic and flow control in Java
+* Loop structures and arrays in Java
+* Working with collections in Java
+* Managing exceptions in Java
+* Debugging Java
+* Object oriented programming in Java
+
+### Description
+
+In the first few courses there wasn't much new - they talked about data types, arrays, conditionals and so on -, so I skipped most of the videos and just did practice lessons; also there were many things that reminded me of what I've learned at JavaScript's courses and again I mainly focused on doing exercises.
+
