@@ -46,8 +46,4 @@ public abstract class Account implements IAcc{
     public int getNumber(){
         return number;
     }
-
-    public double getBalance(){
-        return balance;
-    }
 }

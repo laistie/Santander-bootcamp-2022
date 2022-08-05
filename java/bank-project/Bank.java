@@ -19,4 +19,10 @@ public class Bank{
     public void setAccs(List<Account> accounts){
         this.accounts = accounts;
     }
+
+    public void showAccs(){
+        for(Account element:this.accounts){
+            System.out.println(element + "\n");
+        }
+    }
 }
